@@ -1,6 +1,6 @@
 package d1015;
 
-public class Sunkjuck {
+public class HW_Sunkjuck {
 
 	public static void main(String[] args) {
 		createStudents();
@@ -8,7 +8,7 @@ public class Sunkjuck {
 
 	private static void createStudents() {
 		System.out.println("다음 학생정보를 입력해 주세요.");
-		Student s = new Student();
+		HW_Student s = new HW_Student();
 		System.out.println(s.toString());
 	}
 	

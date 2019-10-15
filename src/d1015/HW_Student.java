@@ -3,7 +3,7 @@ package d1015;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Student {
+public class HW_Student {
 	private String name, averageGrade, averageRate;
 	private final String NAMETEXT = "이름: ", KORTEXT = "국어: ", ENGTEXT = "영어: ", MATHTEXT = "수학: ", TOTALTEXT = "총점: ",
 			AVERAGETEXT = "평균: ", ACHIEVEMENTTEXT = "성취결과: ", RATETEXT = "성취도: ";
@@ -13,7 +13,7 @@ public class Student {
 	private Scanner sc;
 	private DecimalFormat df = new DecimalFormat("#.##");
 
-	public Student() {
+	public HW_Student() {
 		this.name = getTextInput(NAMETEXT);
 		this.kor = getNumberInput(KORTEXT);
 		this.eng = getNumberInput(ENGTEXT);
