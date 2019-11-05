@@ -1,4 +1,4 @@
-package d1015;
+package hw.d1015;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -32,7 +32,8 @@ public class HW_Student {
 			averageRate = "Very Good";
 		} else if (kor >= 90 || eng >= 90 || math >= 90) {
 			averageRate = "Good";
-		} else if (kor <= 90 && eng <= 90 && math <= 90) {
+		} else { //90점 미만은 모두 포함이므로 else if 필요 없음.
+//		} else if (kor < 90 && eng < 90 && math < 90) {
 			averageRate = "Bad";
 		}
 	}

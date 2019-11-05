@@ -1,6 +1,6 @@
-package d1015;
+package hw.d1015;
 
-public class HW_Sunkjuck {
+public class HW_Sungjuck {
 
 	public static void main(String[] args) {
 		createStudents();
